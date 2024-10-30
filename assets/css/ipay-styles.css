@@ -1,0 +1,108 @@
+.ipay-admin-header{
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 25px;
+}
+.ipay-logo-container{
+    padding-top: 10px;
+}
+.ipay-desc-container{
+    padding-top: 14px;
+    padding-left: 12px;
+}
+#ipay-title-text{
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 0px;
+}
+#ipay-sub-title-text{
+    font-size: 14px;
+    font-weight: 600;
+    margin-top: -20px;
+}
+
+.ipay-ipaytext-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.ipaytext-cp-btn{
+    border: 1px solid #E0E0E0;
+    margin-left: 4px;
+    height: 28px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: #E0E0E0;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.ipaytext-cp-btn:hover{
+    background-color: #BDBDBD;
+    transition: 0.3s;
+}
+
+.ipaytext-gen-btn{
+    border: 1px solid #2271b1;
+    margin-left: 4px;
+    height: 28px;
+    border-radius: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: #2271b1;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.ipaytext-gen-btn:hover{
+    background-color: #005a87;
+    transition: 0.3s;
+}
+
+.ipaytext-gen-btn-ru{
+    border: 1px solid #2271b1;
+    margin-left: 4px;
+    height: 28px;
+    border-radius: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: #2271b1;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.ipaytext-gen-btn-ru:hover{
+    background-color: #005a87;
+    transition: 0.3s;
+}
+
+.copy-tool-tip{
+    position: absolute;
+    border: 1px solid #424242;
+    background-color: #424242;
+    color: white;
+    margin-top:-26px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    border-radius: 10px;
+    font-size: 12px;
+    display: block;
+}
+
+.ipay-custom-hidden{
+    display: none;
+}
